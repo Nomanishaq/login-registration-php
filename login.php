@@ -65,7 +65,7 @@ if (isset($_REQUEST['field'])) {
 else{
     ?>
 <script>
-window.location.assign('index.php');
+window.location.assign('index');
 </script>
     <?php
 }
