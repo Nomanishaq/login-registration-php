@@ -127,6 +127,36 @@ body{
     }
 }
 
+/* index page styling */
+.contaner-profile{
+    display: block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.4117647058823529);
+    box-shadow: 1px 2px black;
+    position: relative;
+}
+.profile-picture{
+    padding: 20px;
+}
+.profile-picture img{
+    border-radius: 50%;
+    width: 150px;
+}
+.profile-picture h2{
+    font-weight: 100;
+    margin-left: 2%;
+}
+.spacing{
+    padding:15px;
+}
+.spacing b{
+    text-transform: capitalize;
+}
+
 /* custom scroll bar */
 /* width */
 ::-webkit-scrollbar {

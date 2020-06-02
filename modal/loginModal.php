@@ -18,7 +18,7 @@ if (isset($_REQUEST['login'])) {
                 if ($_SESSION['email']) {
                     ?>
                     <script>
-                    window.location.assign('../index.php');
+                    window.location.assign('../index');
                     </script>
                     <?php
                 }
@@ -27,7 +27,7 @@ if (isset($_REQUEST['login'])) {
         else{
             ?>
             <script>
-            window.location.assign('../login.php?field');
+            window.location.assign('../login?field');
             </script>
             <?php   
 

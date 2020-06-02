@@ -23,14 +23,14 @@ if (isset($_REQUEST['register'])) {
     
     ?>
 <script>
-window.location.assign('../login.php');
+window.location.assign('../login');
 </script>
     <?php
     }
     else{
     ?>
     <script>
-    window.location.assign('../registration.php?field');
+    window.location.assign('../registration?field');
     </script>
         <?php
     }
@@ -38,7 +38,7 @@ window.location.assign('../login.php');
 else{
     ?>
 <script>
-window.location.assign('../login.php');
+window.location.assign('../login');
 </script>
     <?php
 }

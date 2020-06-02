@@ -1,5 +1,4 @@
 <?php
-include_once('./config/database.php');
 session_start();
 if (isset($_SESSION['email']) == "") {
 ?>
@@ -47,7 +46,7 @@ if (isset($_REQUEST['field'])) {
             ?>
             <!-- input type forget -->
             <div class="input-field">
-            <span class="forget"><a href="#">Forget password</a></span>
+            <span class="forget"><a href="registration">register here</a></span>
             <input type="checkbox"><span> Rember me</span>
             </div>
 
